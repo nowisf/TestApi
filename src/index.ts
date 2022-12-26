@@ -1,6 +1,7 @@
 import fastify from "fastify";
 import { PORT } from "./env";
 const server = fastify();
+
 server.get("/ping", async (request, reply) => {
   return "pong\n";
 });

@@ -1,17 +1,22 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-
-    "module": "commonjs",
-
-    "esModuleInterop": true,
-
-    "forceConsistentCasingInFileNames": true,
-
+    "incremental": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "noEmit": true,
     "strict": true,
-
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "preserveWatchOutput": true,
     "skipLibCheck": true,
-
-    "outDir": "build"
-  }
+    "forceConsistentCasingInFileNames": true,
+    "importsNotUsedAsValues": "remove"
+  },
+  "include": ["**/*.ts"],
+  "exlude": ["**/node_modules", "build"]
 }

@@ -2,10 +2,12 @@
   "name": "ts-backend",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
+  "main": "build/index.js",
   "scripts": {
     "postinstall": "prisma generate",
     "dev": "bob-watch -w src -c \"npm run build && npm start\" ",
-    "build": "bob-ts -i src -d build",
+    "build": "bob-ts -i src -d build -f interop",
     "start": "node build/index.js"
   },
   "keywords": [],
@@ -26,6 +28,7 @@
   },
   "dependencies": {
     "@prisma/client": "^4.8.0",
+    "dotenv": "^16.0.3",
     "fastify": "^4.10.2",
     "require-env-variable": "^4.0.1"
   }

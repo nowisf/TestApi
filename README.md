@@ -1,2 +1,17 @@
-# ts-backend
-base backend con fastify y ts
+# auth-api-example
+
+## Requisites
+
+- Node 16+
+
+## Installation
+
+```bash
+npm install
+```
+
+### Development
+
+```bash
+npm run dev
+```

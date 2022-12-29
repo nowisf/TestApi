@@ -1,1 +1,0 @@
-{"version":3,"file":"db.mjs","sources":["../src/db.ts"],"sourcesContent":["import { PrismaClient } from \"@prisma/client\";\r\nconst prisma = new PrismaClient();\r\n\r\nexport default prisma;\r\n"],"names":[],"mappings":";;AACM,MAAA,MAAA,GAAS,IAAI,YAAa;;;;"}

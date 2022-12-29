@@ -1,2 +1,0 @@
-
-//# sourceMappingURL=delete.js.map
